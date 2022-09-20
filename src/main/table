@@ -1,0 +1,6 @@
+create table users (user_index number, user_id varchar2(15), user_pwd varchar2(10));
+
+
+
+insert into users values(1,'admin','a1234');
+insert into users values(2,'user','password');
